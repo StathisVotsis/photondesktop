@@ -1,0 +1,12 @@
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\photondesktop.exe.config
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\photondesktop.exe
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\photondesktop.pdb
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.csprojResolveAssemblyReference.cache
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.Form1.resources
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.Properties.Resources.resources
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.csproj.GenerateResource.Cache
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.exe
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.pdb
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Particle.SDK.dll
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Newtonsoft.Json.xml
