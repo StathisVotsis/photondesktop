@@ -30,16 +30,31 @@ namespace photondesktop
                 var success = await ParticleCloud.SharedCloud.LoginAsync(textBox1.Text, textBox2.Text);
                 if (success)
                 {
-                    MessageBox.Show("Success login");
+                    DialogResult result = MessageBox.Show("Success Login", "Success",MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+                    if (result == DialogResult.OK)
+                    {
+                        ControlDevices cd = new ControlDevices ();
+                        cd.ShowDialog();
+                        this.Close();
+                    }
+                    else if (result == DialogResult.Cancel)
+                    {
+                        textBox1.Text = "";
+                        textBox2.Text = "";
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Invalid credentials");
+                    DialogResult result = MessageBox.Show("Invalid credentials", "Invalid credentials",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    textBox1.Text = "";
+                    textBox2.Text = "";
                 }
             }
             catch
             {
-                MessageBox.Show("Invalid credentials or network error or null credentials");
+                DialogResult result = MessageBox.Show("Invalid credentials", "Invalid credentials", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Text = "";
+                textBox2.Text = "";
             }           
         }
     }

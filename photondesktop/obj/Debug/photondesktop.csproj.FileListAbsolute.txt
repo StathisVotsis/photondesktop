@@ -10,3 +10,4 @@ C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\
 C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Newtonsoft.Json.dll
 C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Particle.SDK.dll
 C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\s.votsis.CREATIVEMINDS\Desktop\develop\photondesktop\photondesktop\obj\Debug\photondesktop.ControlDevices.resources
