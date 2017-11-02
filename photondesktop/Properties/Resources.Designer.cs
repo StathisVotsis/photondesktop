@@ -63,6 +63,26 @@ namespace photondesktop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11949847757620075334button_green_benji_park_01_svg {
+            get {
+                object obj = ResourceManager.GetObject("11949847757620075334button-green_benji_park_01.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _212000px_Glass_button_red {
+            get {
+                object obj = ResourceManager.GetObject("212000px-Glass_button_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2c84fdfd3e3edbe631a91650094f2267_400x400 {
             get {
                 object obj = ResourceManager.GetObject("2c84fdfd3e3edbe631a91650094f2267_400x400", resourceCulture);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Particle.SDK;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,23 @@ namespace photondesktop
         public ControlDevices()
         {
             InitializeComponent();
+           
+        }
+
+        private async void pictureBox1_Click(object sender, EventArgs e)
+        {
+            var success = await ParticleCloud.SharedCloud.LoginAsync("stathisvotsis@gmail.com", "eystbots");
+            ParticleDevice device = await ParticleCloud.SharedCloud.GetDeviceAsync("3c0034001347353136383631");
+            var functionResponse = await device.RunFunctionAsync("relayOn", "1");
+            var result = functionResponse.ReturnValue;
+        }
+
+        private async void pictureBox2_Click(object sender, EventArgs e)
+        {
+            var success = await ParticleCloud.SharedCloud.LoginAsync("stathisvotsis@gmail.com", "eystbots");
+            ParticleDevice device = await ParticleCloud.SharedCloud.GetDeviceAsync("3c0034001347353136383631");
+            var functionResponse = await device.RunFunctionAsync("relayOn", "2");
+            var result = functionResponse.ReturnValue;
         }
     }
 }
