@@ -13,7 +13,10 @@ namespace photondesktop
 {
     public partial class Form1 : Form
     {
-        
+
+        //public string ReturnText1 { get; set; }
+        //public string ReturnText2 { get; set; }
+
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +38,8 @@ namespace photondesktop
                     DialogResult result = MessageBox.Show("Success Login", "Success",MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
                     if (result == DialogResult.OK)
                     {
+                        //ReturnText1 = this.textBox1.Text;
+                        //ReturnText2 = this.textBox2.Text;
                         ControlDevices cd = new ControlDevices ();
                         cd.ShowDialog();
                         this.Close();

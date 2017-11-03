@@ -13,13 +13,15 @@ namespace photondesktop
 {
     public partial class ControlDevices : Form
     {
+
+        //public string ReturnText1 { get; set; }
+        //public string ReturnText2 { get; set; }
         public ControlDevices()
         {
             InitializeComponent();
-           
         }
 
-        private async void pictureBox1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             var success = await ParticleCloud.SharedCloud.LoginAsync("stathisvotsis@gmail.com", "eystbots");
             ParticleDevice device = await ParticleCloud.SharedCloud.GetDeviceAsync("3c0034001347353136383631");
@@ -27,7 +29,7 @@ namespace photondesktop
             var result = functionResponse.ReturnValue;
         }
 
-        private async void pictureBox2_Click(object sender, EventArgs e)
+        private async void button2_Click(object sender, EventArgs e)
         {
             var success = await ParticleCloud.SharedCloud.LoginAsync("stathisvotsis@gmail.com", "eystbots");
             ParticleDevice device = await ParticleCloud.SharedCloud.GetDeviceAsync("3c0034001347353136383631");
